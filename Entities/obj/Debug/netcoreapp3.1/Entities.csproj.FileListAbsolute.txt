@@ -1,0 +1,12 @@
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Kiolin\source\repos\Food Reservation\Entities\obj\Debug\netcoreapp3.1\Entities.pdb

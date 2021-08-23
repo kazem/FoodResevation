@@ -1,0 +1,83 @@
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\appsettings.json
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Food Resevation.exe
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Food Resevation.deps.json
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Food Resevation.runtimeconfig.json
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Food Resevation.runtimeconfig.dev.json
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Food Resevation.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\ref\Food Resevation.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Food Resevation.pdb
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Pluralize.NET.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Common.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Data.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Entities.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Services.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\WebFramework.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\WebFramework.pdb
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Common.pdb
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Data.pdb
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Entities.pdb
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Services.pdb
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.csprojAssemblyReference.cache
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.AssemblyInfoInputs.cache
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.AssemblyInfo.cs
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.csproj.CoreCompileInputs.cache
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\staticwebassets\Food Resevation.StaticWebAssets.Manifest.cache
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\staticwebassets\Food Resevation.StaticWebAssets.xml
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\scopedcss\bundle\Food Resevation.styles.css
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.RazorTargetAssemblyInfo.cache
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.csproj.CopyComplete
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\ref\Food Resevation.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.pdb
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\obj\Debug\net5.0\Food Resevation.genruntimeconfig.cache
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\NLog.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\nlog.config
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Kiolin\source\repos\Food Resevation\Food Resevation\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
