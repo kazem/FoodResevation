@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Food Resevation\\Food Resevation.csproj": {}
+    "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Food Resevation\\Food Resevation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Common\\Common.csproj": {
+    "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Kiolin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Common\\obj\\",
+        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kiolin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Data\\Data.csproj": {
+    "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Kiolin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Data\\obj\\",
+        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kiolin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,8 +104,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Entities\\Entities.csproj"
+              "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Entities\\Entities.csproj"
               }
             }
           }
@@ -160,14 +160,14 @@
         }
       }
     },
-    "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Entities\\Entities.csproj": {
+    "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Kiolin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kiolin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -186,8 +186,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Common\\Common.csproj"
+              "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Common\\Common.csproj"
               }
             }
           }
@@ -201,6 +201,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -220,14 +226,14 @@
         }
       }
     },
-    "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Food Resevation\\Food Resevation.csproj": {
+    "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Food Resevation\\Food Resevation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Food Resevation\\Food Resevation.csproj",
+        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Food Resevation\\Food Resevation.csproj",
         "projectName": "Food Resevation",
-        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Food Resevation\\Food Resevation.csproj",
+        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Food Resevation\\Food Resevation.csproj",
         "packagesPath": "C:\\Users\\Kiolin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Food Resevation\\obj\\",
+        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Food Resevation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kiolin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -246,8 +252,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\WebFramework\\WebFramework.csproj": {
-                "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\WebFramework\\WebFramework.csproj"
+              "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\WebFramework\\WebFramework.csproj": {
+                "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\WebFramework\\WebFramework.csproj"
               }
             }
           }
@@ -291,14 +297,14 @@
         }
       }
     },
-    "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Services\\Services.csproj": {
+    "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\Kiolin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Services\\obj\\",
+        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kiolin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -317,8 +323,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Data\\Data.csproj"
+              "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Data\\Data.csproj"
               }
             }
           }
@@ -333,6 +339,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
               "version": "[5.0.8, )"
@@ -361,14 +371,14 @@
         }
       }
     },
-    "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\WebFramework\\WebFramework.csproj": {
+    "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\WebFramework\\WebFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\WebFramework\\WebFramework.csproj",
+        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\WebFramework\\WebFramework.csproj",
         "projectName": "WebFramework",
-        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\WebFramework\\WebFramework.csproj",
+        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\WebFramework\\WebFramework.csproj",
         "packagesPath": "C:\\Users\\Kiolin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\WebFramework\\obj\\",
+        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\WebFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kiolin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -387,8 +397,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Services\\Services.csproj"
+              "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Services\\Services.csproj"
               }
             }
           }
@@ -406,6 +416,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",

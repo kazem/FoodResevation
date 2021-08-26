@@ -41,6 +41,7 @@ namespace Food_Resevation
                 options.UseSqlServer(Configuration.GetConnectionString("SqlServer"));
             });
 
+            services.AddCustomIdentity(_siteSettigns.IdentitySettings);
 
             services.AddMinimalMvc();
 

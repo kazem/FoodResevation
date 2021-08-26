@@ -3,6 +3,7 @@ using Data;
 using Entities;
 using Food_Resevation.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Services;
@@ -23,14 +24,22 @@ namespace Food_Resevation.Controllers
     {
         private readonly IUserRepository userRepository;
         private readonly IJwtService jwtService;
+        private readonly UserManager<User> userManager;
+        private readonly RoleManager<Role> roleManager;
+        private readonly SignInManager<User> signInManager;
 
-        public UserController(IUserRepository userRepository, IJwtService jwtService)
+        public UserController(IUserRepository userRepository, IJwtService jwtService, UserManager<User> userManager,
+            RoleManager<Role> roleManager, SignInManager<User> signInManager)
         {
             this.userRepository = userRepository;
             this.jwtService = jwtService;
+            this.userManager = userManager;
+            this.roleManager = roleManager;
+            this.signInManager = signInManager;
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<ApiResult<User>> Create(UserDTO userDto, CancellationToken cancellationToken)
         {
 
@@ -44,9 +53,14 @@ namespace Food_Resevation.Controllers
                 FirstName = userDto.FirstName,
                 LastName = userDto.LastName,
                 Gender = userDto.Gender,
-                Username = userDto.Username
+                UserName = userDto.Username,
+                Email = userDto.Email,
+                PhoneNumber = userDto.PhoneNumber
+               
             };
-            await userRepository.AddAsync(user, userDto.Password, cancellationToken);
+            var result = await userManager.CreateAsync(user, userDto.Password); //userRepository.AddAsync(user, userDto.Password, cancellationToken);
+            if (!result.Succeeded)
+                    throw new AppException(Common.ApiResultStatusCode.BadRequest, result.Errors);
             return user;
         }
 
@@ -54,16 +68,23 @@ namespace Food_Resevation.Controllers
         [AllowAnonymous]
         public async Task<string> Token(string username, string password, CancellationToken cancellationToken)
         {
-            var user = await userRepository.GetByUsernameAndPassword(username, password, cancellationToken);
+            var user = await userManager.FindByNameAsync(username);
+            //var user = await userRepository.GetByUsernameAndPassword(username, password, cancellationToken);
             if (user == null)
+                throw new BadRequestException("نام کاربری یا رمز عبور اشتباه است");  
+            
+            var isValidPassword = await userManager.CheckPasswordAsync(user, password);
+            if (!isValidPassword)
                 throw new BadRequestException("نام کاربری یا رمز عبور اشتباه است");
-            return jwtService.GenerateAsync(user);
+
+            return await jwtService.GenerateAsync(user);
         }
 
-        [HttpGet]
-        [Authorize]
-        public async Task<ActionResult<List<User>>> Get(CancellationToken cancellationToken)
+        [HttpGet("{id:int}")]
+        [AllowAnonymous]
+        public async Task<ActionResult<List<User>>> Get(int id, CancellationToken cancellationToken)
         {
+            var user2 = await userManager.FindByIdAsync(id.ToString());
             var users = await userRepository.TableNoTracking.ToListAsync(cancellationToken);
             return Ok(users);
         }

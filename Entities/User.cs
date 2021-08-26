@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -7,20 +8,16 @@ using System.Text;
 
 namespace Entities
 {
-    public class User : BaseEntity<Guid>
+    public class User : IdentityUser<int>, IEntity
     {
         public User()
         {
-            SecurityStamp = Guid.NewGuid();
             IsActive = true;
         }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string Username { get; set; }
-        public string PasswordHash { get; set; }
         public Gender Gender { get; set; }
         public byte Age { get; set; }
-        public Guid SecurityStamp { get; set; }
         public DateTimeOffset? LastLoginDate { get; set; }
         public bool IsActive { get; set; }
 
@@ -40,7 +37,7 @@ namespace Entities
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-
+            builder.Property(s => s.UserName).IsRequired().HasMaxLength(20);
         }
     }
 }

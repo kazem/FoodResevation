@@ -21,3 +21,15 @@ C:\Users\Kiolin\source\repos\Food Resevation\Common\obj\Debug\net5.0\Common.cspr
 C:\Users\Kiolin\source\repos\Food Resevation\Common\obj\Debug\net5.0\Common.dll
 C:\Users\Kiolin\source\repos\Food Resevation\Common\obj\Debug\net5.0\ref\Common.dll
 C:\Users\Kiolin\source\repos\Food Resevation\Common\obj\Debug\net5.0\Common.pdb
+C:\Users\Kiolin\source\repos\FoodResevation\Common\bin\Debug\net5.0\Common.deps.json
+C:\Users\Kiolin\source\repos\FoodResevation\Common\bin\Debug\net5.0\Common.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Common\bin\Debug\net5.0\ref\Common.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Common\bin\Debug\net5.0\Common.pdb
+C:\Users\Kiolin\source\repos\FoodResevation\Common\obj\Debug\net5.0\Common.csprojAssemblyReference.cache
+C:\Users\Kiolin\source\repos\FoodResevation\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiolin\source\repos\FoodResevation\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+C:\Users\Kiolin\source\repos\FoodResevation\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+C:\Users\Kiolin\source\repos\FoodResevation\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Kiolin\source\repos\FoodResevation\Common\obj\Debug\net5.0\Common.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Common\obj\Debug\net5.0\ref\Common.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Common\obj\Debug\net5.0\Common.pdb

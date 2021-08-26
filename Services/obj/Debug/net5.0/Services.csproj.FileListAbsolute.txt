@@ -55,3 +55,22 @@ C:\Users\Kiolin\source\repos\Food Resevation\Services\obj\Debug\net5.0\Services.
 C:\Users\Kiolin\source\repos\Food Resevation\Services\obj\Debug\net5.0\Services.dll
 C:\Users\Kiolin\source\repos\Food Resevation\Services\obj\Debug\net5.0\ref\Services.dll
 C:\Users\Kiolin\source\repos\Food Resevation\Services\obj\Debug\net5.0\Services.pdb
+C:\Users\Kiolin\source\repos\FoodResevation\Services\bin\Debug\net5.0\Services.deps.json
+C:\Users\Kiolin\source\repos\FoodResevation\Services\bin\Debug\net5.0\Services.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Services\bin\Debug\net5.0\ref\Services.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Services\bin\Debug\net5.0\Services.pdb
+C:\Users\Kiolin\source\repos\FoodResevation\Services\bin\Debug\net5.0\Common.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Services\bin\Debug\net5.0\Data.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Services\bin\Debug\net5.0\Entities.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Services\bin\Debug\net5.0\Data.pdb
+C:\Users\Kiolin\source\repos\FoodResevation\Services\bin\Debug\net5.0\Common.pdb
+C:\Users\Kiolin\source\repos\FoodResevation\Services\bin\Debug\net5.0\Entities.pdb
+C:\Users\Kiolin\source\repos\FoodResevation\Services\obj\Debug\net5.0\Services.csprojAssemblyReference.cache
+C:\Users\Kiolin\source\repos\FoodResevation\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kiolin\source\repos\FoodResevation\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+C:\Users\Kiolin\source\repos\FoodResevation\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+C:\Users\Kiolin\source\repos\FoodResevation\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\Kiolin\source\repos\FoodResevation\Services\obj\Debug\net5.0\Services.csproj.CopyComplete
+C:\Users\Kiolin\source\repos\FoodResevation\Services\obj\Debug\net5.0\Services.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Services\obj\Debug\net5.0\ref\Services.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Services\obj\Debug\net5.0\Services.pdb

@@ -10,7 +10,7 @@ namespace Entities
 {
     public class RequestFoodReservation : BaseEntity<Guid>
     {
-        public Guid UserId { get; set; }
+        public int UserId { get; set; }
         public long FoodScheduleId { get; set; }
         public DateTime Date { get; set; }
         public DateTime CreationRegister { get; set; }

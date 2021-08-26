@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0wBwsPesBENfFTKwzVkGttTFCHN06ORtM/B+22bKRZJ5s21Dw6RzxUGhyAs/ppAWq0f6Ezr1l1ISEvejTdF/tw==",
+  "dgSpecHash": "cfSLmhDsp968aZCJrt2knftET3JKr6fy3aWGufu5Gadqs+J7kTzwjjYj2QohiAiUJPensaJT9BuSirJ19I1sNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.8\\microsoft.aspnetcore.cryptography.internal.5.0.8.nupkg.sha512",
+    "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.8\\microsoft.aspnetcore.cryptography.keyderivation.5.0.8.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
@@ -17,6 +19,8 @@
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.8\\microsoft.extensions.identity.core.5.0.8.nupkg.sha512",
+    "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.8\\microsoft.extensions.identity.stores.5.0.8.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",

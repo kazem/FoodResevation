@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Common\\Common.csproj": {}
+    "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Common\\Common.csproj": {
+    "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Kiolin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\Food Resevation\\Common\\obj\\",
+        "outputPath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kiolin\\AppData\\Roaming\\NuGet\\NuGet.Config",

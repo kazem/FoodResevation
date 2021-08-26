@@ -1,9 +1,10 @@
 ﻿using Entities;
+using System.Threading.Tasks;
 
 namespace Services
 {
     public interface IJwtService
     {
-        string GenerateAsync(User user);
+        Task<string> GenerateAsync(User user);
     }
 }

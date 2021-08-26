@@ -15,7 +15,7 @@ namespace Entities
         public long RestaurantId { get; set; }
         public DateTime FromDate { get; set; }
         public DateTime ToDate { get; set; }
-        public Guid CreatorId { get; set; }
+        public int CreatorId { get; set; }
         public DateTime CreationDate { get; set; }
 
         public Restaurant Restaurant { get; set; }
