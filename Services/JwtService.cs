@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public class JwtService : IJwtService
+    public class JwtService : IJwtService, IScopedDependency
     {
         private readonly SiteSettings _settings;
         private readonly SignInManager<User> signInManager;

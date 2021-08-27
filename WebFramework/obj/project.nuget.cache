@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kIZa4u9illfufXMD0ZSY3IyPatKscQ1Bu36/VsN5HOZw8uXmxTzMGQxK8FbW/lTKQ9J65j6JESSqrB0hSZTLWA==",
+  "dgSpecHash": "729/oSuxNWaCquOdCGfUoPl6UW9ARjtmCrgsip5aR2Rvc2zsq7/xcVssCvGb+dKadGdO11URZgspifsfYsMEUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\WebFramework\\WebFramework.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kiolin\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\Kiolin\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",

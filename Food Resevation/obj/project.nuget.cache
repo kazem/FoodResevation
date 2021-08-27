@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XTavaA6iL3czl9m/Vzcbag8Gr5KdEmdWqdYnfHJDfuUNtctEpKO1ZJ42ikGhSR7xoR3WQ6f0WGIEvzBDWUM/BQ==",
+  "dgSpecHash": "CseW3jHqd0W1nGXV3v8hXqn/mhm00tLUF53wVJCqbIU14xAKKqfbgnjpc6mP6+PplyTEWjTpFTKiqR2TKXHI4Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kiolin\\source\\repos\\FoodResevation\\Food Resevation\\Food Resevation.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kiolin\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\Kiolin\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Kiolin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

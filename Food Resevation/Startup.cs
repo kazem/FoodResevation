@@ -1,18 +1,12 @@
+using Autofac;
 using Common;
 using Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc.Authorization;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using WebFramework.Configuration;
 using WebFramework.Middelwares;
 
@@ -36,21 +30,21 @@ namespace Food_Resevation
         {
             services.Configure<SiteSettings>(Configuration.GetSection(nameof(SiteSettings)));
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-            {
-                options.UseSqlServer(Configuration.GetConnectionString("SqlServer"));
-            });
+            services.AddDbContext(Configuration);
 
             services.AddCustomIdentity(_siteSettigns.IdentitySettings);
 
-            services.AddMinimalMvc();
-
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddScoped<IUserRepository, UserRepository>();
-            services.AddScoped<IJwtService,JwtService>();
+            services.AddMinimalMvc();         
 
             services.AddJwtAuthentication(_siteSettigns.JwtSettings);
 
+            //services.BuildAutofacServiceProvider();
+        }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            //Register Services to Autofac ContainerBuilder
+            builder.AddServices();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,19 +52,8 @@ namespace Food_Resevation
         {
             app.UseCustomExceptionHandler();
 
-            if (env.IsDevelopment())
-            {
-                //app.UseDeveloperExceptionPage();
-            }
+            app.UseHsts(env);
 
-            else
-            {
-                //app.UseExceptionHandler();
-                app.UseHsts();
-            }
-            
-            
-            
             app.UseRouting();
 
             app.UseHttpsRedirection();
