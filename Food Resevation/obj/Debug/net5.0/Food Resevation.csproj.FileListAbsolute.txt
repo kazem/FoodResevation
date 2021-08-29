@@ -166,3 +166,5 @@ C:\Users\Kiolin\source\repos\FoodResevation\Food Resevation\obj\Debug\net5.0\Foo
 C:\Users\Kiolin\source\repos\FoodResevation\Food Resevation\obj\Debug\net5.0\Food Resevation.genruntimeconfig.cache
 C:\Users\Kiolin\source\repos\FoodResevation\Food Resevation\bin\Debug\net5.0\Autofac.dll
 C:\Users\Kiolin\source\repos\FoodResevation\Food Resevation\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Food Resevation\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Kiolin\source\repos\FoodResevation\Food Resevation\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

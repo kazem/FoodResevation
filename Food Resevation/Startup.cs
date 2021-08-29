@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
 using WebFramework.Configuration;
+using WebFramework.CustomMapping;
 using WebFramework.Middelwares;
 
 namespace Food_Resevation
@@ -29,6 +30,8 @@ namespace Food_Resevation
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<SiteSettings>(Configuration.GetSection(nameof(SiteSettings)));
+
+            services.InitializeAutoMapper();
 
             services.AddDbContext(Configuration);
 
