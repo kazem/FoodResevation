@@ -4,3 +4,5 @@
 * Exception Handling using Custom Middleware
 * Automatic Validation
 * Standard API Resulting
+* Dependency Injection using Autofac
+* Map resources using AutoMapper
