@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Entities
 {
-    public class User : IdentityUser<int>, IEntity
+    public class User : IdentityUser<int>, IEntity<int>
     {
         public User()
         {

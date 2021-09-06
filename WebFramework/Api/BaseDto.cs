@@ -5,10 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebFramework.CustomMapping;
 
 namespace WebFramework.Api
 {
-    public class BaseDto<TDto, TEntity, TKey>
+    public abstract class BaseDto<TDto, TEntity, TKey> : IHaveCustomMapping
         where TDto : class, new()
         where TEntity : class, IEntity<TKey>, new()
     {
@@ -53,5 +54,12 @@ namespace WebFramework.Api
         public virtual void CustomMappings(IMappingExpression<TEntity, TDto> mapping)
         {
         }
+    }
+
+    public abstract class BaseDto<TDto, TEntity> : BaseDto<TDto, TEntity, int>
+        where TDto : class, new()
+        where TEntity : class, IEntity<int>, new()
+    {
+
     }
 }

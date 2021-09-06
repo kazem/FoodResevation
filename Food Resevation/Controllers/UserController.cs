@@ -1,4 +1,6 @@
-﻿using Common.Exceptions;
+﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
+using Common.Exceptions;
 using Data;
 using Entities;
 using Food_Resevation.Models;
@@ -13,56 +15,53 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using WebFramework;
+using WebFramework.Api;
 using WebFramework.Filters;
 
 namespace Food_Resevation.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiResultFilter]
-    [ApiController]
-    public class UserController : Controller
+    public class UserController : CrudController<UserDTO, UserSelectDTO, User, int>
     {
-        private readonly IUserRepository userRepository;
         private readonly IJwtService jwtService;
         private readonly UserManager<User> userManager;
         private readonly RoleManager<Role> roleManager;
         private readonly SignInManager<User> signInManager;
 
-        public UserController(IUserRepository userRepository, IJwtService jwtService, UserManager<User> userManager,
-            RoleManager<Role> roleManager, SignInManager<User> signInManager)
+        public UserController(IRepository<User> userRepository, IJwtService jwtService, UserManager<User> userManager,
+            RoleManager<Role> roleManager, SignInManager<User> signInManager, IMapper mapper)
+            : base(userRepository, mapper)
         {
-            this.userRepository = userRepository;
             this.jwtService = jwtService;
             this.userManager = userManager;
             this.roleManager = roleManager;
             this.signInManager = signInManager;
         }
 
-        [HttpPost]
-        [AllowAnonymous]
-        public async Task<ApiResult<User>> Create(UserDTO userDto, CancellationToken cancellationToken)
+        [Route("[action]")]
+        public async override Task<ApiResult<UserSelectDTO>> Create(UserDTO dto, CancellationToken cancellationToken)
         {
-
-            //var exists = await userRepository.TableNoTracking.AnyAsync(p => p.UserName == userDto.UserName);
-            //if (exists)
-            //    return BadRequest("نام کاربری تکراری است");
-
-            var user = new User
-            {
-                Age = userDto.Age,
-                FirstName = userDto.FirstName,
-                LastName = userDto.LastName,
-                Gender = userDto.Gender,
-                UserName = userDto.Username,
-                Email = userDto.Email,
-                PhoneNumber = userDto.PhoneNumber
-               
-            };
-            var result = await userManager.CreateAsync(user, userDto.Password); //userRepository.AddAsync(user, userDto.Password, cancellationToken);
+            var user = dto.ToEntity(mapper);
+            var result = await userManager.CreateAsync(user, dto.Password);
             if (!result.Succeeded)
-                    throw new AppException(Common.ApiResultStatusCode.BadRequest, result.Errors);
-            return user;
+                throw new AppException(Common.ApiResultStatusCode.BadRequest, result.Errors);
+            var selectUser = await repository.TableNoTracking.ProjectTo<UserSelectDTO>(mapper.ConfigurationProvider)
+                .SingleOrDefaultAsync(u => u.Id.Equals(user.Id), cancellationToken);
+            return selectUser;
         }
+
+
+        //[HttpPost]
+        //[AllowAnonymous]        
+        //public new async Task<ApiResult<UserSelectDTO>> Create(UserDTO userDto, CancellationToken cancellationToken)
+        //{
+        //    var user = userDto.ToEntity(mapper);
+        //    var result = await userManager.CreateAsync(user, userDto.Password); //userRepository.AddAsync(user, userDto.Password, cancellationToken);
+        //    if (!result.Succeeded)
+        //        throw new AppException(Common.ApiResultStatusCode.BadRequest, result.Errors);
+        //    var selectUser = await repository.TableNoTracking.ProjectTo<UserSelectDTO>(mapper.ConfigurationProvider)
+        //        .SingleOrDefaultAsync(u => u.Id.Equals(user.Id), cancellationToken);
+        //    return Ok(selectUser);
+        //}
 
         [HttpGet("[action]")]
         [AllowAnonymous]
@@ -80,13 +79,9 @@ namespace Food_Resevation.Controllers
             return await jwtService.GenerateAsync(user);
         }
 
-        [HttpGet("{id:int}")]
-        [AllowAnonymous]
-        public async Task<ActionResult<List<User>>> Get(int id, CancellationToken cancellationToken)
+        public override Task<ApiResult<UserSelectDTO>> Get(int id, CancellationToken cancellationToken)
         {
-            var user2 = await userManager.FindByIdAsync(id.ToString());
-            var users = await userRepository.TableNoTracking.ToListAsync(cancellationToken);
-            return Ok(users);
+            return base.Get(id, cancellationToken);
         }
     }
 }
